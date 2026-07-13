@@ -1,0 +1,24 @@
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+  }
+
+  required_version = ">= 1.2.0"
+}
+
+provider "aws" {
+  region = "us-east-1"
+}
+
+resource "aws_instance" "lesson_03" {
+  ami           = "ami-0fd6240f599091088"
+  instance_type = "t3.micro"
+  # Note: Change this to t3.micro if you created your AWS account after July 15th, 2025. Then, you can take advantage of free tier hours.
+
+  tags = {
+    Name = "Lesson-03-AWS-Instance"
+  }
+}
