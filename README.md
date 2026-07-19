@@ -17,7 +17,7 @@ This repository serves as both an active codebase for live lab environments and 
 
 Looking for comprehensive breakdowns of AWS integrations, environment setups, CLI parameter mappings, or technical blog posts for this course? 
 
-👉 **Access the comprehensive repository logs here: [jogi-writes/](./jogi-writes/)**
+👉 **Access the comprehensive repository logs here: [jogi-writes/](https://github.com/karuneshb/jogi-writes/blob/main/content/posts/containers-and-virtualization/terraform-in-aws.md))**
 
 Inside the **jogi-writes** directory, you will find:
 * Detailed installation blueprints tailored for Windows PowerShell environment initialization.
