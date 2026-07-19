@@ -8,17 +8,6 @@ This repository serves as both an active codebase for live lab environments and 
 
 ## 📂 Project Organization & Architecture
 
-```text
-.
-├── lesson-03/            # Hands-on Labs: EC2 Compute Provisioning & State Management
-│   ├── main.tf           # Resource blueprints (Compute instances, AMI mapping)
-│   └── .gitignore        # Explicit exclusion matrices (Excludes state files & provider binaries)
-└── jogi-writes/          # Technical Blog Assets & Deep-Dive Notes
-    └── README.md         # Professional Terraform & AWS Comprehensive Cheat Sheets
-
-#Work in progress
-```
-
 * **Core Deployments:** Iterative exercises focusing on highly available infrastructure patterns, networking design (VPCs, Subnets), security groups, load balancing, and computing primitives.
 * **Continuous Documentation:** Comprehensive blog breakdowns and real-world deployment playbooks mapped to industry compliance parameters.
 
